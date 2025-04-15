@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styling */
+@layer base {
+    body {
+        font-family: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif;
+    }
+}
+
+/* Custom component met @apply */
+@layer components {
+    .buttonverwijder {
+        @apply bg-red-500 hover:bg-red-600 text-white font-semibold px-4 py-2 rounded-xl w-full transition-transform duration-200 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-red-300;
+    }
+}
