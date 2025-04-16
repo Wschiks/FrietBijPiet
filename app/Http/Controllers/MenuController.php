@@ -40,7 +40,8 @@ class MenuController extends Controller
 
         $request->validate([
             "name"=> "required",
-            "price"=> "required"
+            "price"=> "required",
+            "description"=>"required"
         ]);
 
 
@@ -71,7 +72,8 @@ class MenuController extends Controller
     {
         $request->validate([
             'name' => 'required',
-            'price' => 'required'
+            'price' => 'required',
+            "description"=>"required"
         ]);
 
         $menu->update($request->all());

@@ -21,6 +21,10 @@
         <label for="price" class="block text-lg font-semibold text-gray-700">Prijs</label>
         <input type="number" name="price" id="price" value="{{ $menu->price }}" class="w-full p-3 mt-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500">
     </div>
+    <div class="mb-4">
+        <label for="description" class="block text-lg font-semibold text-gray-700">bescgijrving</label>
+        <input type="text" name="description" id="description" value="{{ $menu->description }}" class="w-full p-3 mt-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500">
+    </div>
 
     <div class="flex justify-center gap-4">
         <input type="submit" value="Update" class="bg-green-500 hover:bg-green-600 text-white py-3 px-6 rounded-lg font-bold cursor-pointer transition-all duration-300 hover:scale-105">

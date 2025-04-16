@@ -52,6 +52,7 @@
             <h2 class="text-2xl font-bold text-pink-600 mb-2">{{ $product->name }}</h2>
             <p class="text-lg text-gray-700 mb-1">💰 Prijs: <span
                     class="font-semibold text-green-600">€{{ number_format($product->price, 2, ',', '.') }}</span></p>
+            <h2 class="text-2xl font-bold text-pink-600 mb-2">{{ $product->description }}</h2>
             @auth
                 @if(auth()-> user()->id ===1)
             <p class="text-sm text-gray-500 mb-4">🆔 ID: {{ $product->id }}</p>

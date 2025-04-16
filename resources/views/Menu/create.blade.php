@@ -26,6 +26,11 @@
     <input type="number" name="price" step="0.01" placeholder="Bijv. 2.50"
            class="w-full px-4 py-2 mb-6 border border-yellow-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400 focus:border-pink-400 shadow-inner">
 
+    <label for="description" class="block text-lg font-semibold text-pink-700 mb-2">Snack beschrijven</label>
+    <input name="description" type="text" placeholder="Bijv. Kaassoufflé is echt top! "
+           class="w-full px-4 py-2 mb-4 border border-yellow-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400 focus:border-pink-400 shadow-inner">
+
+
     <input type="submit" value="🧾 Toevoegen aan menu"
            class="w-full bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 rounded-xl transition-all duration-300 shadow-lg hover:shadow-2xl cursor-pointer">
 </form>
