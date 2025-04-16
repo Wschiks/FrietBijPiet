@@ -17,7 +17,7 @@ class ProductSeeder extends Seeder
             ['name' => 'Frikandel', 'price' => 2.00],
             ['name' => 'Bitterballen', 'price' => 3.00],
             ['name' => 'FrietBijPietSpecial', 'price' => 4.00],
-            ['name' => 'Kroket', 'price' => 2.00],
+            ['name' => 'VicKroket', 'price' => 2.00],
         ]);
     }
 }

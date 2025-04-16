@@ -12,7 +12,7 @@
 
 
 @auth
-    @if(auth()-> user()->id ===1)
+    @if(auth()-> user()->id === 1)
         <div class="flex justify-center mb-12">
             <a href="{{ route('menu.create') }}">
                 <button
